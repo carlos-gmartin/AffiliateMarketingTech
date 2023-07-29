@@ -1,19 +1,20 @@
 {
     "name": "AMG",
     "description": "description",
-    "authors": "Carlos",
+    "authors": "Carlos G Martin",
     "version": "1.0.0",
-    "main": "index.js",
+    "main": "app.js",
     "dependencies": {
         "express": "^4.18.2",
-        "nodemon": "^3.0.1",
-        "pug": "^3.0.2"
+        "nodemon": "^3.0.1"
     },
     "repository": {
         "type": "git",
         "url": "https://github.com/carlos-gmartin/AffiliateMarketingGuru.git"
     },
     "scripts": {
-        "start": "nodemon index.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node app.js",
+        "dev": "nodemon app.js"
     }
 }
