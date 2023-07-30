@@ -1,12 +1,14 @@
 import './index.css';
-import Sidenav from './components/Sidenav';
+import Navbar from './components/navbar';
 import Home from './pages/home';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
-      <Sidenav/>
+      <Navbar/>
         <Home/>
+        <Footer/>
     </div>
   );
 }

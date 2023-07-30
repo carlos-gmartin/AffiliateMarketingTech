@@ -1,9 +1,15 @@
 import React from 'react';
-import Hero from '../components/Hero';
+import Hero from '../components/hero';
+import Contentsummary  from '../components/ContentSummary';
 
 const Home = () => {
   return (
-    <Hero />
+    <>
+    <div>
+      <Hero/>
+      <Contentsummary/>
+    </div>
+    </>
   )
 }
 

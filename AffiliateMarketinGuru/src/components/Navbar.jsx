@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import {AiOutlineMenu, AiOutlineHome, AiOutlineContacts, AiOutlineApi, AiOutlineInfo} from 'react-icons/ai';
 
-const Sidenav = () => {
+const Navbar = () => {
 
     const [nav, setNav] = useState(false);
     const handleNav = () => {
@@ -38,27 +38,27 @@ const Sidenav = () => {
                                 <div className="px-5 xl:px-12 py-0 flex w-full items-center">
 
                                     <a className="text-3xl font-bold font-heading" href="#">
-                                        <img className="h-9" src="logo.png" alt="AffiliateMarketinGuru"/>
+                                        <img className="h-9" src="logo.png" alt="AffiliateMarketingGuru"/>
                                     </a>
                                     
                                     <ul className="flex md:flex px-4 ml-auto font-semibold font-heading space-x-20">
                                         <li>
-                                            <a className="hover:text-gray-200" href="#main">
+                                            <a href="#main">
                                                 <span className="pl-4">Home</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a className="hover:text-gray-200" href="#summary">
+                                            <a href="#summary">
                                                 <span className="pl-4">Summary</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a className="hover:text-gray-200" href="#services">
+                                            <a href="#services">
                                                 <span className="pl-4">Services</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a className="hover:text-gray-200" href="#contact">
+                                            <a href="#contact">
                                                 <span className="pl-4">Contact</span>
                                             </a>
                                         </li>
@@ -72,4 +72,4 @@ const Sidenav = () => {
     );
 };
 
-export default Sidenav;
+export default Navbar;
