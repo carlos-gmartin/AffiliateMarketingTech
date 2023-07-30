@@ -1,16 +1,34 @@
+import React from 'react'
+import ReactDOM from 'react-dom/client'
+import {BrowserRouter, Routes, Route} from "react-router-dom";
 import './index.css';
-import Navbar from './components/navbar';
-import Home from './pages/home';
+
+import Navbar from './components/Navbar';
+import Home from './pages/Home';
+import Summary from './pages/Summary';
+import Services from './pages/Services';
+import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
-function App() {
+export default function App() {
   return (
-    <div>
-      <Navbar/>
-        <Home/>
-        <Footer/>
+    <div id='container'>
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Navbar />}>
+            <Route index element={<Home />} />
+            <Route path="summary" element={<Summary />} />
+            <Route path="services" element={<Services />} />
+            <Route path="Contact" element={<Contact />} />
+          </Route>
+        </Routes>
+        <Footer />
+      </BrowserRouter>
     </div>
   );
 }
 
-export default App
+const root = ReactDOM.createRoot(document.getElementById('root'));
+
+root.render(<App />)
+
