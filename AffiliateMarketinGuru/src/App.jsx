@@ -1,13 +1,16 @@
-import './App.css'
-import Sidenav from './components/Sidenav'
+import './App.css';
+import './index.css';
+import Sidenav from './components/Sidenav';
+import Main from './components/Main';
+
 
 function App() {
-
   return (
-    <div>
-      <Sidenav />
+    <div className='w-full h-full'>
+      <Sidenav/>
+        <Main/>
     </div>
-  )
+  );
 }
 
 export default App

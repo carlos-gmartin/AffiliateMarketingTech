@@ -32,33 +32,33 @@ const Sidenav = () => {
                         </a>
                     </div>
             ) : (
-                <div class="flex-wrap place-items-top h-screen md:block hidden">
-                    <section class="relative mx-auto">
-                        <nav class="flex justify-between w-screen">
-                                <div class="px-5 xl:px-12 py-0 flex w-full items-center">
+                <div className="flex items-center justify-between flex-wrap z-999">
+                    <section className="relative mx-auto">
+                        <nav className="flex justify-between w-screen">
+                                <div className="px-5 xl:px-12 py-0 flex w-full items-center">
                                     
-                                    <a class="text-3xl font-bold font-heading" href="#">
-                                        <img class="h-9" src="logo.png" alt="AffiliateMarketinGuru"/>
+                                    <a className="text-3xl font-bold font-heading" href="#">
+                                        <img className="h-9" src="logo.png" alt="AffiliateMarketinGuru"/>
                                     </a>
                                     
-                                    <ul class="flex md:flex px-4 mx-auto font-semibold font-heading space-x-12">
+                                    <ul className="flex md:flex px-4 mx-auto font-semibold font-heading space-x-12">
                                         <li>
-                                            <a class="hover:text-gray-200" href="#main">
-                                                <span className="pl-4">Home</span>
+                                            <a className="hover:text-gray-200" href="#main">
+                                                <span className="pl-4">home</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="hover:text-gray-200" href="#summary">
+                                            <a className="hover:text-gray-200" href="#summary">
                                                 <span className="pl-4">Summary</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="hover:text-gray-200" href="#services">
+                                            <a className="hover:text-gray-200" href="#services">
                                                 <span className="pl-4">Services</span>
                                             </a>
                                         </li>
                                         <li>
-                                            <a class="hover:text-gray-200" href="#contact">
+                                            <a className="hover:text-gray-200" href="#contact">
                                                 <span className="pl-4">Contact</span>
                                             </a>
                                         </li>
