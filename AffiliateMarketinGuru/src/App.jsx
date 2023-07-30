@@ -1,14 +1,12 @@
-import './App.css';
 import './index.css';
 import Sidenav from './components/Sidenav';
-import Main from './components/Main';
-
+import Home from './pages/home';
 
 function App() {
   return (
-    <div className='w-full h-full'>
+    <div>
       <Sidenav/>
-        <Main/>
+        <Home/>
     </div>
   );
 }

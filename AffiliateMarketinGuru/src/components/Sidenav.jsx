@@ -32,19 +32,19 @@ const Sidenav = () => {
                         </a>
                     </div>
             ) : (
-                <div className="flex items-center justify-between flex-wrap z-999">
-                    <section className="relative mx-auto">
+                <div className="md:flex hidden justify-between flex-wrap z-999">
+                    <section className="relative ml-auto">
                         <nav className="flex justify-between w-screen">
                                 <div className="px-5 xl:px-12 py-0 flex w-full items-center">
-                                    
+
                                     <a className="text-3xl font-bold font-heading" href="#">
                                         <img className="h-9" src="logo.png" alt="AffiliateMarketinGuru"/>
                                     </a>
                                     
-                                    <ul className="flex md:flex px-4 mx-auto font-semibold font-heading space-x-12">
+                                    <ul className="flex md:flex px-4 ml-auto font-semibold font-heading space-x-20">
                                         <li>
                                             <a className="hover:text-gray-200" href="#main">
-                                                <span className="pl-4">home</span>
+                                                <span className="pl-4">Home</span>
                                             </a>
                                         </li>
                                         <li>
