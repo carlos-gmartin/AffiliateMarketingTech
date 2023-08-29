@@ -33,7 +33,7 @@ const Pricing = () => {
 		This package is the most basic implementation for installing tracking plugins, this is the quickest implementation. 
 		</p>
 
-		<h2 class="mt-4 text-2xl font-semibold text-gray-700 sm:text-3xl dark:text-gray-300">££££></h2>
+		<h2 class="mt-4 text-2xl font-semibold text-gray-700 sm:text-3xl dark:text-gray-300">££££</h2>
 
 		<p class="mt-1 text-gray-500 dark:text-gray-300">One time Payment</p>
 
@@ -41,8 +41,6 @@ const Pricing = () => {
 		Start Now
 		</button>
 		</div>
-
-		<hr class="border-gray-200 dark:border-gray-700">
 
 		<div class="p-6">
 		<h1 class="text-lg font-medium text-gray-700 capitalize lg:text-xl dark:text-white">What’s included:</h1>
@@ -116,8 +114,6 @@ const Pricing = () => {
 		</button>
 		</div>
 
-		<hr class="border-gray-200 dark:border-gray-700">
-
 		<div class="p-6">
 		<h1 class="text-lg font-medium text-gray-700 capitalize lg:text-xl dark:text-white">What’s included:</h1>
 
@@ -177,9 +173,9 @@ const Pricing = () => {
 		</div>
 		</div>
 		</div>
-	)
-}
-
-export default Pricing
+		)
+	}
+	
+export default Pricing;
 
 
