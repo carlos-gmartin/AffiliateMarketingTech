@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+/*
+
+Version 1.0 Colour palletes:
+
+Dark blue = #1F2B37
+
+Light blue = #4F76F6
+
+White = #F9F9F9
+
+Hacker Green = #77F2A1
+
+*/
+
 html, body, #app, #app>div {
     width: 100%;
     height: 100%;
@@ -28,14 +42,14 @@ html, body, #app, #app>div {
 
 @layer base{
     h1{
-        color: rgb(134, 117, 169);
+        color: #1F2B37;
     }
     
     a{
-        color: rgb(134, 117, 169);
+        color: #4F76F6;
     }
     a:hover{
-        color: black;
+        color: #1F2B37
     }
 
     p{

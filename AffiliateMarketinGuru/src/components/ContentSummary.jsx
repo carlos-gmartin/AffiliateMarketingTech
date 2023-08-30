@@ -1,4 +1,6 @@
 import React from 'react'
+import {FaGem} from 'react-icons/fa';
+import {GiMetalBar} from 'react-icons/gi';
 
 const ContentSummary = () => {
   return (
@@ -21,7 +23,7 @@ const ContentSummary = () => {
           <div class="lg:col-span-2 lg:col-start-1 lg:row-start-1 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div class="lg:pr-4">
               <div class="lg:max-w-lg">
-                <p class="text-base font-semibold leading-7 text-indigo-600">Deploy faster</p>
+                <p class="text-base font-semibold leading-7 text-[#77F2A1]">Deploy faster</p>
                 <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A faster solution</h1>
                 <p class="mt-6 text-xl leading-7 text-gray-800">
                   
@@ -51,14 +53,14 @@ const ContentSummary = () => {
                   </p>
                 <ul role="list" class="mt-8 space-y-8 text-gray-600">
                   <li class="flex gap-x-3">
-                    <svg class="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z" clip-rule="evenodd" />
+                    <svg class="mt-1 h-5 w-5 flex-none text-orange-700" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <GiMetalBar size={20} fill-rule="evenodd" d="M5.5 17a4.5 4.5 0 01-1.44-8.765 4.5 4.5 0 018.302-3.046 3.5 3.5 0 014.504 4.272A4 4 0 0115 17H5.5zm3.75-2.75a.75.75 0 001.5 0V9.66l1.95 2.1a.75.75 0 101.1-1.02l-3.25-3.5a.75.75 0 00-1.1 0l-3.25 3.5a.75.75 0 101.1 1.02l1.95-2.1v4.59z" clip-rule="evenodd" />
                     </svg>
                     <span><strong class="font-semibold text-gray-900">Bronze</strong> Any plugin installation. Including: Shopify, Woocomerce, Shopware, PrestaShop</span>
                   </li>
                   <li class="flex gap-x-3">
-                    <svg class="mt-1 h-5 w-5 flex-none text-indigo-600" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
-                      <path fill-rule="evenodd" d="M10 1a4.5 4.5 0 00-4.5 4.5V9H5a2 2 0 00-2 2v6a2 2 0 002 2h10a2 2 0 002-2v-6a2 2 0 00-2-2h-.5V5.5A4.5 4.5 0 0010 1zm3 8V5.5a3 3 0 10-6 0V9h6z" clip-rule="evenodd" />
+                    <svg class="mt-1 h-5 w-5 flex-none text-slate-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+                      <FaGem size={20} fill-rule="evenodd"  clip-rule="evenodd" />
                     </svg>
                     <span><strong class="font-semibold text-gray-900">Platinum</strong> Google Tag Manager installation and debugging </span>
                   </li>

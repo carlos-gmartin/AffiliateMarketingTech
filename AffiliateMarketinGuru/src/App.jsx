@@ -5,7 +5,6 @@ import './index.css';
 
 import Navbar from './components/Navbar';
 import Home from './pages/Home';
-import Summary from './pages/Summary';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
@@ -17,7 +16,6 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Navbar />}>
             <Route index element={<Home />} />
-            <Route path="summary" element={<Summary />} />
             <Route path="services" element={<Services />} />
             <Route path="Contact" element={<Contact />} />
           </Route>

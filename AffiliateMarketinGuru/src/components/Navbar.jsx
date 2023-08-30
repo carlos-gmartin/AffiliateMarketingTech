@@ -68,14 +68,6 @@ const Navbar = () => {
                                         </li>
 
                                         <li>
-                                            <Link to="summary">
-                                            <a href="#summary">
-                                                <span className="pl-4">Summary</span>
-                                            </a>
-                                            </Link>
-                                        </li>
-
-                                        <li>
                                             <Link to="services">
                                             <a href="#services">
                                                 <span className="pl-4">Services</span>
