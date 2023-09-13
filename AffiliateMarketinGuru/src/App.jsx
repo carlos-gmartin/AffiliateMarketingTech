@@ -9,6 +9,8 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
+import Form from './components/PackageForm';
+
 export default function App() {
   return (
     <div id='container'>
@@ -18,6 +20,7 @@ export default function App() {
             <Route index element={<Home />} />
             <Route path="services" element={<Services />} />
             <Route path="Contact" element={<Contact />} />
+            <Route path="Form" element={<Form />} />
           </Route>
         </Routes>
         <Footer />

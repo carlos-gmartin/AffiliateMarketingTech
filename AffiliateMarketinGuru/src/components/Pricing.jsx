@@ -32,7 +32,7 @@ const Pricing = () => {
 							</div>
 
 							<p class="mt-4 font-medium">
-								You can get All Access by selecting your plan!
+								We can help you directly by selecting your plan!
 							</p>
 
 							<a href="#" class="flex items-center mt-4 -mx-1 text-sm capitalize dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-[#4F76F6]">
