@@ -1,7 +1,7 @@
 import React from 'react';
 import PackageForm from '../components/PackageForm';
 
-const Form = () => {
+const SignUp = () => {
     return (
         <div>
             <PackageForm></PackageForm>
@@ -9,4 +9,4 @@ const Form = () => {
     )
   }
   
-  export default Home;
+  export default SignUp;
