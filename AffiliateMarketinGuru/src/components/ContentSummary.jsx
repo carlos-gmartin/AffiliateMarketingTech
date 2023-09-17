@@ -65,7 +65,7 @@ const ContentSummary = () => {
                     <span><strong class="font-semibold text-gray-900">Platinum</strong> Google Tag Manager installation and debugging </span>
                   </li>
                 </ul>
-                <p class="mt-8">Bronze package terms of services, this package includes only a guided explanation on how to set up any plugin installation. This includes an online call tutorial explaining how to implement the tracking integration for your desired plugin. This implementation is usually completed very quickly.</p>
+                {/* <p class="mt-8">Bronze package, this package includes only a guided explanation on how to set up any plugin installation. This includes an online call tutorial explaining how to implement the tracking integration for your desired plugin. This implementation is usually completed very quickly.</p> */}
               </div>
             </div>
           </div>

@@ -1,6 +1,7 @@
 import React from 'react'
-import {FaGem} from 'react-icons/fa';
-import {GiMetalBar} from 'react-icons/gi';
+import { FaGem } from 'react-icons/fa';
+import { GiMetalBar } from 'react-icons/gi';
+import { Outlet, Link } from "react-router-dom";
 
 const Pricing = () => {
 	return (
@@ -57,10 +58,11 @@ const Pricing = () => {
 										<h2 class="mt-4 text-2xl font-semibold sm:text-3xl">££££</h2>
 
 										<p class="mt-1">One time Payment</p>
-
-										<button class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize text- transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
-											Start Now
-										</button>
+										<Link to="/sign-up">
+											<button class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize text- transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+												Start Now
+											</button>
+										</Link>
 									</div>
 
 									<div class="p-6">
@@ -121,10 +123,10 @@ const Pricing = () => {
 								<div class="max-w-sm mx-auto border rounded-lg md:mx-4 dark:border-gray-700">
 									<div class="p-6">
 										<div class="inline-flex" >
-											<FaGem size={30} fill-rule="evenodd" class="mx-4 text-slate-400" clip-rule="evenodd"/>
+											<FaGem size={30} fill-rule="evenodd" class="mx-4 text-slate-400" clip-rule="evenodd" />
 											<h1 class="text-xl font-medium  capitalize lg:text-2xl">Platinum</h1>
 										</div>
-										
+
 										<p class="mt-4  ">The perfect package for someone looking for more complex solutions and implementations receiving the most indepth assistance.</p>
 
 										<h2 class="mt-4 text-2xl font-semibold  sm:text-3xl ">££££<span class="text-base font-medium"></span></h2>
@@ -132,10 +134,11 @@ const Pricing = () => {
 										<p class="mt-1  ">
 											One time Payment
 										</p>
-
-										<button class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 fo			cus:ring focus:ring-blue-300 focus:ring-opacity-80">
-											Start Now
-										</button>
+										<Link to="/sign-up">
+											<button class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 fo			cus:ring focus:ring-blue-300 focus:ring-opacity-80">
+												Start Now
+											</button>
+										</Link>
 									</div>
 
 									<div class="p-6">
