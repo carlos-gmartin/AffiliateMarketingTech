@@ -1,2 +1,2 @@
 # AffiliateMarketingGuru
-Buisness website
+Business website
