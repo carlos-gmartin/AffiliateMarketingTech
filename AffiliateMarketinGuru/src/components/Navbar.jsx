@@ -46,7 +46,7 @@ const Navbar = () => {
                                     
                                     <Link to="/">
                                     <a className="text-3xl font-bold font-heading" href="#main">
-                                        <img className="h-9" src="logo.png" alt="AffiliateMarketingGuru"/>
+                                        <img className="h-9" src="logo.png" alt="AffiliateMarketingTech"/>
                                     </a>
                                     </Link>
                                     
