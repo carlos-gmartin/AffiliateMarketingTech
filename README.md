@@ -1,4 +1,4 @@
-# AffiliateMarketingGuru
+# AffiliateMarketingTech
 
 Welcome to the Affiliate Marketing Guru, your ultimate destination for reliable technical assistance and solutions. 
 
