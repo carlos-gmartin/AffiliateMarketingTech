@@ -35,10 +35,6 @@ const Pricing = () => {
 							<p class="mt-4 font-medium">
 								We can help you directly by selecting your plan!
 							</p>
-
-							<a href="#" class="flex items-center mt-4 -mx-1 text-sm capitalize dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-[#4F76F6]">
-								<svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010			 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-							</a>
 						</div>
 
 						<div class="flex-1 xl:mx-8">
