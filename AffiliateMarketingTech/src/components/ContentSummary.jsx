@@ -39,7 +39,7 @@ const ContentSummary = () => {
             </div>
           </div>
           <div class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-            <img class="w-[48rem] max-w-none rounded-xl bg-gray-900 shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem]" src="https://tailwindui.com/img/component-images/dark-project-app-screenshot.png" alt=""/>
+            <img class="w-[48rem] max-w-none rounded-xl bg-gray-600 shadow-xl ring-1 ring-gray-100/10 sm:w-[57rem]" src="./src/images/platforms-image.png" alt="Platforms including: Shopify, Woocomerce, Shopware, PrestaShop and GTM"/>
           </div>
           <div class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div class="lg:pr-4">
@@ -65,7 +65,7 @@ const ContentSummary = () => {
                     <span><strong class="font-semibold text-gray-900">Platinum</strong> Google Tag Manager installation and debugging </span>
                   </li>
                 </ul>
-                <p class="mt-8">Bronze package terms of services, this package includes only a guided explanation on how to set up any plugin installation. This includes an online call tutorial explaining how to implement the tracking integration for your desired plugin. This implementation is usually completed very quickly.</p>
+                {/* <p class="mt-8">Bronze package, this package includes only a guided explanation on how to set up any plugin installation. This includes an online call tutorial explaining how to implement the tracking integration for your desired plugin. This implementation is usually completed very quickly.</p> */}
               </div>
             </div>
           </div>

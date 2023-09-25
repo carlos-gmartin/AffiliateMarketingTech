@@ -1,5 +1,6 @@
 import React from "react";
 import { BiSolidPhoneIncoming, BiBug } from 'react-icons/bi';
+import { Link } from "react-router-dom";
 
 const ContactDetails = () => {
     return (
@@ -79,9 +80,6 @@ const ContactDetails = () => {
                                                     <p class="text-neutral-500 dark:text-neutral-200">
                                                         support@example.com
                                                     </p>
-                                                    <p class="text-neutral-500 dark:text-neutral-200">
-                                                        +1 234-567-89
-                                                    </p>
                                                 </div>
                                             </div>
                                         </div>
@@ -94,13 +92,11 @@ const ContactDetails = () => {
                                                 </div>
                                                 <div class="ml-6 grow">
                                                     <p class="mb-2 font-bold dark:text-white">Bug report</p>
-                                                    <p class="text-neutral-500 dark:text-neutral-200">
-                                                        bugs@example.com
-                                                    </p>
-                                                    <p class="text-neutral-500 dark:text-neutral-200">
-                                                        +1 234-567-89
-
-                                                    </p>
+                                                    <Link to="/bug-report">
+                                                        <p class="text-neutral-500 dark:text-neutral-200">
+                                                            <strong class="text-[#77F2A1]">Click me to report a bug.</strong>
+                                                        </p>
+                                                    </Link>
                                                 </div>
                                             </div>
                                         </div>
@@ -109,7 +105,7 @@ const ContactDetails = () => {
                                                 <strong class="text-[#77F2A1]">We're thrilled to connect with you!</strong> Whether you have a burning question, need technical assistance, or simply want to explore potential collaborations, our team at AMG is here and ready to assist.
                                             </p>
                                             <p>
-                                            Your thoughts and inquiries are <strong class="text-[#77F2A1]">important to us</strong>, and we're committed to providing timely and meaningful responses.
+                                                Your thoughts and inquiries are <strong class="text-[#77F2A1]">important to us</strong>, and we're committed to providing timely and meaningful responses.
                                             </p>
                                         </div>
                                     </div>

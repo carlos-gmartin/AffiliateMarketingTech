@@ -1,6 +1,7 @@
 import React from 'react'
-import {FaGem} from 'react-icons/fa';
-import {GiMetalBar} from 'react-icons/gi';
+import { FaGem } from 'react-icons/fa';
+import { GiMetalBar } from 'react-icons/gi';
+import { Outlet, Link } from "react-router-dom";
 
 const Pricing = () => {
 	return (
@@ -32,12 +33,8 @@ const Pricing = () => {
 							</div>
 
 							<p class="mt-4 font-medium">
-								You can get All Access by selecting your plan!
+								We can help you directly by selecting your plan!
 							</p>
-
-							<a href="#" class="flex items-center mt-4 -mx-1 text-sm capitalize dark:text-blue-400 hover:underline hover:text-blue-600 dark:hover:text-[#4F76F6]">
-								<svg class="w-4 h-4 mx-1 rtl:-scale-x-100" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M12.293 5.293a1 1 0 011.414 0l4 4a1 1 0 010			 1.414l-4 4a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-2.293-2.293a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
-							</a>
 						</div>
 
 						<div class="flex-1 xl:mx-8">
@@ -57,10 +54,11 @@ const Pricing = () => {
 										<h2 class="mt-4 text-2xl font-semibold sm:text-3xl">££££</h2>
 
 										<p class="mt-1">One time Payment</p>
-
-										<button class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize text- transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
-											Start Now
-										</button>
+										<Link to="/sign-up">
+											<button class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize text- transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80">
+												Start Now
+											</button>
+										</Link>
 									</div>
 
 									<div class="p-6">
@@ -121,10 +119,10 @@ const Pricing = () => {
 								<div class="max-w-sm mx-auto border rounded-lg md:mx-4 dark:border-gray-700">
 									<div class="p-6">
 										<div class="inline-flex" >
-											<FaGem size={30} fill-rule="evenodd" class="mx-4 text-slate-400" clip-rule="evenodd"/>
+											<FaGem size={30} fill-rule="evenodd" class="mx-4 text-slate-400" clip-rule="evenodd" />
 											<h1 class="text-xl font-medium  capitalize lg:text-2xl">Platinum</h1>
 										</div>
-										
+
 										<p class="mt-4  ">The perfect package for someone looking for more complex solutions and implementations receiving the most indepth assistance.</p>
 
 										<h2 class="mt-4 text-2xl font-semibold  sm:text-3xl ">££££<span class="text-base font-medium"></span></h2>
@@ -132,10 +130,11 @@ const Pricing = () => {
 										<p class="mt-1  ">
 											One time Payment
 										</p>
-
-										<button class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 fo			cus:ring focus:ring-blue-300 focus:ring-opacity-80">
-											Start Now
-										</button>
+										<Link to="/sign-up">
+											<button class="w-full px-4 py-2 mt-6 tracking-wide text-white capitalize transition-colors duration-300 transform bg-blue-600 rounded-md hover:bg-blue-500 focus:outline-none focus:bg-blue-500 fo			cus:ring focus:ring-blue-300 focus:ring-opacity-80">
+												Start Now
+											</button>
+										</Link>
 									</div>
 
 									<div class="p-6">

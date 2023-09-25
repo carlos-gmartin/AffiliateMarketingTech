@@ -9,6 +9,9 @@ import Services from './pages/Services';
 import Contact from './pages/Contact';
 import Footer from './components/Footer';
 
+import SignUp from './pages/SignUp';
+import BugForm from './pages/Bug';
+
 export default function App() {
   return (
     <div id='container'>
@@ -18,6 +21,8 @@ export default function App() {
             <Route index element={<Home />} />
             <Route path="services" element={<Services />} />
             <Route path="Contact" element={<Contact />} />
+            <Route path="Sign-up" element={<SignUp />} />
+            <Route path="Bug-report" element={<BugForm />} />
           </Route>
         </Routes>
         <Footer />

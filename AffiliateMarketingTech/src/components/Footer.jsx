@@ -12,7 +12,7 @@ const Footer = () => {
             </div>
             <div className='flex'>
                 <AiOutlineCopyright className='mr-2' size={30}/>
-                <h1>2023 Copyright: AffiliateMarketingGuru</h1>
+                <h1>2023 Copyright: AffiliateMarketingTech</h1>
             </div>
         </div>
         <div>
