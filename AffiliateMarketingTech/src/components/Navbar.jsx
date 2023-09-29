@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {AiOutlineMenu, AiOutlineHome, AiOutlineContacts, AiOutlineApi, AiOutlineInfo} from 'react-icons/ai';
+import {AiOutlineMenu, AiOutlineHome, AiOutlineContacts, AiOutlineApi} from 'react-icons/ai';
 import {Outlet, Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -19,21 +19,21 @@ const Navbar = () => {
 
                         <Link to="/">
                              <a href="#main" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-                            <AiOutlineHome size={20} />
+                            <AiOutlineHome size={40} />
                             <span className="pl-4">home</span>
                             </a>
                         </Link>
                         
                         <Link to="services">
                             <a href="#services" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-                            <AiOutlineApi size={20} />
+                            <AiOutlineApi size={40} />
                             <span className="pl-4">Services</span>
                             </a>
                         </Link>
                         
                         <Link to="contact">
                             <a href="#contact" className="w-[75%] flex justify-center items-center rounded-full shadow-lg bg-gray-100 shadow-gray-400 m-2 p-4 cursor-pointer hover:scale-110 ease-in duration-200">
-                            <AiOutlineContacts size={20} />
+                            <AiOutlineContacts size={40} />
                             <span className="pl-4">Contact</span>
                         </a>
                         </Link>
