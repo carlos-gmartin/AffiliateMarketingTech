@@ -1,10 +1,13 @@
 import React from 'react'
 import {FaGem} from 'react-icons/fa';
 import {GiMetalBar} from 'react-icons/gi';
+import imgSummary from '../images/platforms-image.png';
+import LinesGraphic from '../components/LinesGraphic';
 
 const ContentSummary = () => {
   return (
     <div>
+        <LinesGraphic></LinesGraphic>
         <div class="relative isolate overflow-hidden bg-white px-6 py-24 sm:py-32 lg:overflow-visible lg:px-0">
         <div class="absolute inset-0 -z-10 overflow-hidden">
           <svg class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
@@ -27,7 +30,7 @@ const ContentSummary = () => {
                 <h1 class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">A faster solution</h1>
                 <p class="mt-6 text-xl leading-7 text-gray-800">
                   
-                  Welcome to the Affiliate Marketing Guru, your ultimate destination for reliable technical assistance and solutions. 
+                  Welcome to Affiliate Marketing Tech, your ultimate destination for reliable technical assistance and solutions. 
 
                   Whether you're troubleshooting complex technical implementations, grappling with ecommerce plugins, or seeking programming insights, we're here to guide you through every step of your technical journey.
 
@@ -39,7 +42,7 @@ const ContentSummary = () => {
             </div>
           </div>
           <div class="-ml-12 -mt-12 p-12 lg:sticky lg:top-4 lg:col-start-2 lg:row-span-2 lg:row-start-1 lg:overflow-hidden">
-            <img class="w-[48rem] max-w-none rounded-xl bg-gray-600 shadow-xl ring-1 ring-gray-100/10 sm:w-[57rem]" src="./src/images/platforms-image.png" alt="Platforms including: Shopify, Woocomerce, Shopware, PrestaShop and GTM"/>
+            <img class="w-[48rem] max-w-none rounded-xl bg-gray-600 shadow-xl ring-1 ring-gray-100/10 sm:w-[57rem]" src={imgSummary} alt="Platforms including: Shopify, Woocomerce, Shopware, PrestaShop and GTM"/>
           </div>
           <div class="lg:col-span-2 lg:col-start-1 lg:row-start-2 lg:mx-auto lg:grid lg:w-full lg:max-w-7xl lg:grid-cols-2 lg:gap-x-8 lg:px-8">
             <div class="lg:pr-4">
