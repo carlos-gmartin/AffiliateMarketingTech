@@ -4,7 +4,7 @@ import {Link} from "react-router-dom";
 const Hero = () => {
     return (
         <div className='hero-container'>
-            <image className="background-hero" />
+            <image className="background-hero"/>
             <h1>SOLVING ISSUES</h1>
             <p>What are you waiting for?</p>
             <div className="hero-btns">

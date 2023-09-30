@@ -1,25 +1,14 @@
 import React from 'react'
 import { FaGem } from 'react-icons/fa';
 import { GiMetalBar } from 'react-icons/gi';
-import { Outlet, Link } from "react-router-dom";
+import {Link} from "react-router-dom";
+import LinesGraphic from '../components/LinesGraphic';
 
 const Pricing = () => {
 	return (
 		<>
 			<div>
-				<div class="absolute inset-0 -z-10 overflow-hidden">
-					<svg class="absolute left-[max(50%,25rem)] top-0 h-[64rem] w-[128rem] -translate-x-1/2 stroke-gray-200 [mask-image:radial-gradient(64rem_64rem_at_top,white,transparent)]" aria-hidden="true">
-						<defs>
-							<pattern id="e813992c-7d03-4cc4-a2bd-151760b470a0" width="200" height="200" x="50%" y="-1" patternUnits="userSpaceOnUse">
-								<path d="M100 200V.5M.5 .5H200" fill="none" />
-							</pattern>
-						</defs>
-						<svg x="50%" y="-1" class="overflow-visible fill-gray-50">
-							<path d="M-100.5 0h201v201h-201Z M699.5 0h201v201h-201Z M499.5 400h201v201h-201Z M-300.5 600h201v201h-201Z" stroke-width="0" />
-						</svg>
-						<rect width="100%" height="100%" stroke-width="0" fill="url(#e813992c-7d03-4cc4-a2bd-151760b470a0)" />
-					</svg>
-				</div>
+				<LinesGraphic></LinesGraphic>
 				<div class="container px-6 py-8 mx-auto">
 					<div class="xl:items-center xl:-mx-8 xl:flex">
 						<div class="flex flex-col items-center xl:items-start xl:mx-8">
