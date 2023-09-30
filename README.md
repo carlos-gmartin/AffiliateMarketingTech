@@ -1,28 +1,26 @@
 # AffiliateMarketingTech
 
-Welcome to the Affiliate Marketing Guru, your ultimate destination for reliable technical assistance and solutions. 
+# Tech Services Hub
 
-Whether you're troubleshooting complex technical implementations, grappling with ecommerce plugins, or seeking programming insights, we're here to guide you through every step of your technical journey.
+Tech Services Hub is a modern, user-friendly website built with a powerful stack comprising React, PHP, and Tailwind CSS. This platform serves as a one-stop destination for tech enthusiasts, professionals, and businesses seeking a wide range of technical services and solutions. Whether you're looking for web development, software consulting, or IT support, Tech Services Hub has you covered.
 
-Our dedicated team of experts have crafted a wealth of comprehensive guides, tutorials, and troubleshooting tips to empower you with the knowledge you need to overcome even the trickiest tech challenges. 
+## Features
 
-Join us in unravelling the complexities of technology and embark on a seamless digital experience. Your tech solutions start here.
+### 1. Services
 
-Summary section: 
-How does it work? 
+Browse through an extensive catalog of tech services offered by skilled professionals and reputable companies. Our platform features detailed listings that showcase service descriptions, pricing, reviews, and provider profiles. Finding the right tech service has never been easier.
 
-First you will need to get in contact with us, explaining the current issue you are encountering. The more information the better! Here is a form that you can use for requesting support: 
+### 2. Responsive Design
 
-Once you have completed the form and sent us all of the necessary information for us to then get in contact with you, we will then begin supplying you with the necessary information to help with the installation or debugging for technical implementation.
+Tech Services Hub is built with a responsive design, ensuring a seamless experience across devices and screen sizes. Access the platform on your desktop, tablet, or smartphone with ease.
 
-Currently we have 2 different service tiers:
+## Tech Stack
 
-Bronze package
-Any plugin installation
-Shopify, Woocomerce, Shopware, PrestaShop
-Platinum package
-Google Tag Manager installation and debugging
-Direct call assistance. 
-Custom
+- **Frontend**: React
+- **Backend**: PHP
+- **Styling**: Tailwind CSS
 
-Once we have chosen the package we will then get in contact with you.
+## Contact
+
+My current direct email address: cm43833@gmail.com
+[LinkedIn](https://www.linkedin.com/in/carlos-g-martin-guillen-932401169/)
