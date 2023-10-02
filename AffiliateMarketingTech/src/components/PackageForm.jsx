@@ -1,6 +1,9 @@
 import { useState } from 'react'
 import LinesGraphic from '../components/LinesGraphic';
 
+import axios from "axios";
+
+
 const PackageForm = () => {
 
     function handleSubmit(e){
@@ -11,7 +14,15 @@ const PackageForm = () => {
         const formData = new FormData(form);
 
         const formJson = Object.fromEntries(formData.entries());
+        
+        const url = 'http://localhost/api/contacts.php';
+
+        // Axios code:
+
         console.log(formJson);
+
+        axios.post(url, formData).then(response=> alert(response.data)).catch(error=> alert(error));
+
     }
 
 
