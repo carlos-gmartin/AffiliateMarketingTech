@@ -15,14 +15,13 @@ const PackageForm = () => {
 
         const formJson = Object.fromEntries(formData.entries());
         
-        const url = 'http://localhost:3306/api/contacts.php';
+        const url = './api/contacts.php';
 
         // Axios code:
 
         console.log(formJson);
 
         axios.post(url, formData).then(response=> alert(response.data)).catch(error=> alert(error));
-
     }
 
 

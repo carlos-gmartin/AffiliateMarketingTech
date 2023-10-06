@@ -1,7 +1,7 @@
 <?php
 
   header("Access-Control-Allow-Origin: *");
-  header("Access-Control-Allow-Headers: *");
+  header("Access-Control-Allow-header: *");
 
   $host = "localhost:3306"; 
   $user = "affilia5_carlos"; 
@@ -13,14 +13,11 @@
   if (mysqli_connect_errno()){
     die("Connection error: " . mysqli_connect_error());
   }
-  echo "Connected.";
 
   if (!$con) {
     die("Connection failed: " . mysqli_connect_error());
   }
   else{
-      echo "Success!";
-
       $name = $_POST['name'];
       $business_name = $_POST['business_name'];
       $email = $_POST['email'];
@@ -36,7 +33,7 @@
       $res = mysqli_query($con, $sql);
 
       if ($res){
-        echo "success!";
+        echo "Successfully sent data!";
       }
       else{
         echo "Error!";
