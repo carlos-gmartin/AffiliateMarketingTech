@@ -1,11 +1,15 @@
 <?php
-  $host = "localhost"; 
+  $host = "localhost:3306"; 
   $user = "affilia5_carlos"; 
   $password = "1&)-f)j)k6n,"; 
   $dbname = "affilia5_main"; 
 
   $con = mysqli_connect($host, $user, $password,$dbname);
 
+  if (mysqli_connect_errno()){
+    die("Connection error: " . mysqli_connect_error());
+  }
+  echo "Connected.";
 
   if (!$con) {
     die("Connection failed: " . mysqli_connect_error());

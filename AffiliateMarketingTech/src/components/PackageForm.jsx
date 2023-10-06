@@ -15,7 +15,7 @@ const PackageForm = () => {
 
         const formJson = Object.fromEntries(formData.entries());
         
-        const url = 'http://localhost/api/contacts.php';
+        const url = 'http://localhost:3306/api/contacts.php';
 
         // Axios code:
 
