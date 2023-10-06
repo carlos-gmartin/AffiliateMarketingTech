@@ -1,4 +1,8 @@
 <?php
+
+  header("Access-Control-Allow-Origin: *");
+  header("Access-Control-Allow-Headers: *");
+
   $host = "localhost:3306"; 
   $user = "affilia5_carlos"; 
   $password = "1&)-f)j)k6n,"; 
