@@ -2,13 +2,12 @@
 
   header("Access-Control-Allow-Origin: *");
   header("Access-Control-Allow-header: *");
+  
 
-  $host = "localhost:3306"; 
-  $user = "affilia5_carlos"; 
-  $password = "1&)-f)j)k6n,"; 
-  $dbname = "affilia5_main"; 
+  $ini = parse_ini_file('../../private/dbConfig.ini');
+  
 
-  $con = mysqli_connect($host, $user, $password,$dbname);
+  $con = mysqli_connect($ini['host'], $ini['user'], $ini['password'],$ini['dbname']);
 
   if (mysqli_connect_errno()){
     die("Connection error: " . mysqli_connect_error());
