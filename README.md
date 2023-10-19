@@ -1,8 +1,6 @@
 # AffiliateMarketingTech
 
-# Tech Services Hub
-
-Tech Services Hub is a modern, user-friendly website built with a powerful stack comprising React, PHP, and Tailwind CSS. This platform serves as a one-stop destination for tech enthusiasts, professionals, and businesses seeking a wide range of technical services and solutions. Whether you're looking for web development, software consulting, or IT support, Tech Services Hub has you covered.
+AffiliateMarketingTech is a modern, user-friendly website built with a powerful stack comprising React, PHP, and Tailwind CSS. This platform serves as a one-stop destination for tech enthusiasts, professionals, and businesses seeking a wide range of technical services and solutions. Whether you're looking for web development, software consulting, or IT support, Tech Services Hub has you covered.
 
 ## Features
 
@@ -19,6 +17,7 @@ Tech Services Hub is built with a responsive design, ensuring a seamless experie
 - **Frontend**: React
 - **Backend**: PHP
 - **Styling**: Tailwind CSS
+- **Data**: SQL
 
 ## Contact
 
