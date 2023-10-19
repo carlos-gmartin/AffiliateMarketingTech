@@ -17,7 +17,7 @@ Tech Services Hub is built with a responsive design, ensuring a seamless experie
 - **Frontend**: React
 - **Backend**: PHP
 - **Styling**: Tailwind CSS
-- **Data**: SQL
+- **Data**: mySQL
 
 ## Contact
 
