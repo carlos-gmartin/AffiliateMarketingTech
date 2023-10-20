@@ -53,7 +53,7 @@ const ContentSummary = () => {
                     <svg class="mt-1 h-5 w-5 flex-none text-slate-400" viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
                       <FaGem size={20} fill-rule="evenodd" clip-rule="evenodd" />
                     </svg>
-                    <span><strong class="font-semibold text-gray-900">Platinum</strong> Google Tag Manager installation and debugging </span>
+                    <span><strong class="font-semibold text-gray-900">Platinum</strong> Contract Developer </span>
                   </li>
                 </ul>
                 {/* <p class="mt-8">Bronze package, this package includes only a guided explanation on how to set up any plugin installation. This includes an online call tutorial explaining how to implement the tracking integration for your desired plugin. This implementation is usually completed very quickly.</p> */}
