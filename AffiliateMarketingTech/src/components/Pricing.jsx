@@ -40,7 +40,7 @@ const Pricing = () => {
 											This package is the most basic implementation for installing tracking plugins, this is the quickest implementation.
 										</p>
 
-										<h2 class="mt-4 text-2xl font-semibold sm:text-3xl">££££</h2>
+										<h2 class="mt-4 text-2xl font-semibold sm:text-3xl">£50.00</h2>
 
 										<p class="mt-1">One time Payment</p>
 										<Link to="/sign-up">
@@ -114,7 +114,7 @@ const Pricing = () => {
 
 										<p class="mt-4  ">The perfect package for someone looking for more complex solutions and implementations receiving the most indepth assistance.</p>
 
-										<h2 class="mt-4 text-2xl font-semibold  sm:text-3xl ">££££<span class="text-base font-medium"></span></h2>
+										<h2 class="mt-4 text-2xl font-semibold  sm:text-3xl ">£75.00<span class="text-base font-medium"></span></h2>
 
 										<p class="mt-1  ">
 											One time Payment
@@ -175,7 +175,7 @@ const Pricing = () => {
 													<path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd" />
 												</svg>
 
-												<span class="mx-4  ">Custom</span>
+												<span class="mx-4  ">Custom Development</span>
 											</div>
 										</div>
 									</div>

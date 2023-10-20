@@ -22,7 +22,7 @@ export default function App() {
             <Route path="services" element={<Services />} />
             <Route path="Contact" element={<Contact />} />
             <Route path="Sign-up" element={<SignUp />} />
-            <Route path="Bug-report" element={<BugForm />} />
+            {/* <Route path="Bug-report" element={<BugForm />} /> */}
           </Route>
         </Routes>
         <Footer />

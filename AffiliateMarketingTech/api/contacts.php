@@ -3,10 +3,8 @@
   header("Access-Control-Allow-Origin: *");
   header("Access-Control-Allow-header: *");
   
-
   $ini = parse_ini_file('../../private/dbConfig.ini');
   
-
   $con = mysqli_connect($ini['host'], $ini['user'], $ini['password'],$ini['dbname']);
 
   if (mysqli_connect_errno()){
@@ -27,8 +25,7 @@
       $note = $_POST['note'];
 
       $sql = "INSERT INTO `request`(`name`, `business_name`, `email`, `phone`, `platform`, `page_url`, `contact_method`, `note`) VALUES ('$name','$business_name','$email','$phone','$platform','$page_url','$contact_method','$note')";
-
-
+      
       $res = mysqli_query($con, $sql);
 
       if ($res){

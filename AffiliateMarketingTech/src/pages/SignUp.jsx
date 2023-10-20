@@ -1,5 +1,5 @@
 import React from 'react';
-import PackageForm from '../components/PackageForm';
+import PackageForm from '../components/Forms/PackageForm';
 
 const SignUp = () => {
     return (
