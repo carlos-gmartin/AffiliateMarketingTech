@@ -55,8 +55,7 @@ const PackageForm = () => {
         const url = './api/contacts.php';
         // Axios code:
         if (errors == undefined || errors.length == 0) {
-            axios.post(url, formData).then().catch(error => alert(error));
-            window.setTimeout(changeLocation("/"), 5000)
+            axios.post(url, formData).then(response=> alert(response.data)).catch(error=> alert(error));
         }
         else {
             setError("Please fix these inputs: " + errors);
